@@ -21,7 +21,7 @@ body {
 /* headings and logo */
 
 #logo {
-    font-family: Amatic SC, sans-serif;
+    font-family: 'Amatic SC', sans-serif;
     font-size: 350%;
     float: left;
     margin-left: 60px;
@@ -38,22 +38,53 @@ a {
     letter-spacing: 2px;
 }
 
-#header-menu {
+header {
     width: 100%;
     height: 110px;
     background-color: #41B3A3 ;
     padding: 0;
-}
-
-#header-menu, #logo {
     line-height: 55px;
 }
 
-#header-menu li {
+nav li {
+    font-family: 'Ubuntu', sans-serif;
     list-style-type: none;
     float: right;
     margin-right: 30px;
     margin-top: 45px;
-    font-size: 100%;
-    padding: 0 10px;
+    font-size: 130%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* welcome message */
+
+#welcome-box {
+    height: 100%;
+    width: 75%;
+    margin: 3% 12%;
+    border: 2px solid #C38D9E ;
+    border-radius: 4px;
+    background-color: #C38D9E ;  
+}
+
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 280%;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px;
+}
+
+h2 ul {
+    font-size: 80%;
+    list-style-type: square;
+    display: flex;
+}
+
+h2 li{
+    display: block;
+    padding: 20px;
+    margin: 0 110px ;
+
 }
