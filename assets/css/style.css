@@ -86,5 +86,19 @@ h2 li{
     display: block;
     padding: 20px;
     margin: 0 110px ;
+}
 
+/* main images section */
+
+.main-images-box {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    margin: none;
+}
+
+.main-images {
+    float: left;
+    width: 33.33%;
+    margin: 0 0;
 }
