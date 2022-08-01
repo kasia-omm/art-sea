@@ -10,7 +10,7 @@ body {
     font-family: Ubuntu, sans-serif;
     }
 
-.background-img {
+/*.background-img {
     background-image: url('../images/pawel-czerwinski-AV06Lm42mVo-unsplash.jpg');
     height: 100%;
     background-position: center;
@@ -68,6 +68,15 @@ nav li {
     background-color: #C38D9E ;  
 }
 
+#welcome-box span {
+    font-size: 200%;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #41B3A3, #fff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
 h1 {
     font-family: 'Amatic SC', sans-serif;
     font-size: 280%;
@@ -90,12 +99,12 @@ h2 li{
 
 /* main images section */
 
-.main-images-box {
+/*.main-images-box {
     width: 100%;
     height: 500px;
     background-color: #fff;
     margin: none;
-}
+} */
 
 .main-images {
     float: left;
