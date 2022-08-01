@@ -59,10 +59,20 @@ nav li {
 
 /* main images */ 
 
-.main-images {
+#image-outer {
     height: 600px;
     width: 100%;
-    display: flex;
+    overflow: hidden;
+}
+
+
+#main-image {
+    height: 600px;
+    width: 50%;
+    background: url(../images/pexels-sharon-mccutcheon-1148998.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
 }
 
 /* welcome message */
