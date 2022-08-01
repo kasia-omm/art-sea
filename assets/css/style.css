@@ -60,7 +60,9 @@ nav li {
 /* main images */ 
 
 .main-images {
-    width: 100%
+    height: 600px;
+    width: 100%;
+    display: flex;
 }
 
 /* welcome message */
@@ -125,4 +127,10 @@ h1 {
 #about-services p {
     padding-top: 15px;
     line-height: 10px;
+}
+
+#page-link-1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #41B3A3;
 }
