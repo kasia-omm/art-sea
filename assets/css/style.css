@@ -60,24 +60,95 @@ nav li {
 /* main images */ 
 
 #image-outer {
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 }
 
-
 #main-image {
-    height: 600px;
-    width: 50%;
-    background: url(../images/pexels-sharon-mccutcheon-1148998.jpg) no-repeat center center;
-    background-position: center;
+    height: 700px;
+    width: 100%;
+    background: url(../images/piotr-musiol-yVsvw3T_6t0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    /* display: flex; */
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.10);
+    }
+}
+
+#image-text {
+    height: 200px;
+    width: 700px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    background-color: #C38D9E;
+    border: 10px solid #41B3A3;
+    border-radius: 20px;
+
+    bottom: 450px;
+    right: 100px;
+
+    position: absolute;
+}
+
+#image-text span {
+    font-size: 200%;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #41B3A3, #fff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#image-text ul {
+    font-size: 100%;
+    display: flex;
+}
+
+#imagetext-list li {
+    width: 100%;
+    float: left;
+    list-style-type: square;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.button {
+    width: 110px;
+    height: 30px;
+    
+    background-color: aliceblue;
+    
+    border: 5px solid #41B3A3;
+    border-radius: 20px;
+    
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bolder;
+    font-size: 130%;
+    text-align: center;
+    text-transform: uppercase;
+
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
 }
 
 /* welcome message */
 
-#welcome-box {
+/* #welcome-box {
     height: 100%;
     width: 75%;
     margin: 0px 155px 0;
@@ -94,7 +165,7 @@ nav li {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-}
+} */
 
 h1 {
     font-family: 'Amatic SC', sans-serif;
@@ -104,7 +175,7 @@ h1 {
     padding: 5px;
 }
 
-#welcome-box ul {
+/* #welcome-box ul {
     font-size: 100%;
     display: flex;
 }
@@ -115,7 +186,7 @@ h1 {
     list-style-type: square;
     margin-left: 10%;
     padding: 10px;
-}
+} */
 
 /* main images section */
 
