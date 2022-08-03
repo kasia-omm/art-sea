@@ -26,6 +26,8 @@ Zdjęcie dodane przez Sharon McCutcheon: https://www.pexels.com/pl-pl/zdjecie/dz
 Photo by <a href="https://unsplash.com/@emily_webster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Webster</a> on <a href="https://unsplash.com/s/photos/crafting-people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/ 
+
+<a href="https://www.flaticon.com/free-icons/wave" title="wave icons">Wave icons created by Freepik - Flaticon</a>
   
 
 # Future Features
