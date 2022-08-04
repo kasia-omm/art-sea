@@ -28,6 +28,15 @@ Photo by <a href="https://unsplash.com/@emily_webster?utm_source=unsplash&utm_me
 https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/ 
 
 <a href="https://www.flaticon.com/free-icons/wave" title="wave icons">Wave icons created by Freepik - Flaticon</a>
+
+Photo by <a href="https://unsplash.com/@daniellajardim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ella Jardim</a> on <a href="https://unsplash.com/s/photos/crafting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">micheile dot com</a> on <a href="https://unsplash.com/s/photos/crafting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@grant_durr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Grant Durr</a> on <a href="https://unsplash.com/s/photos/clay-painting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@lavievagabonde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jasmin Schreiber</a> on <a href="https://unsplash.com/s/photos/crafting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
   
 
 # Future Features
