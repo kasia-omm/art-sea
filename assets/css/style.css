@@ -102,9 +102,15 @@ nav li {
     right: 100px;
 
     position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 #image-text span {
+    /*ArtSea word styling*/
     font-size: 200%;
     font-weight: 600;
     background-image: linear-gradient(to left, #41B3A3, #fff);
@@ -113,9 +119,16 @@ nav li {
     -webkit-background-clip: text;
 }
 
+#image-text span, #image-text h1{
+    margin: 0 30px;
+}
+
 #image-text ul {
     font-size: 100%;
     display: flex;
+    margin: 0 35px 25px;
+    
+
 }
 
 #imagetext-list li {
@@ -178,6 +191,36 @@ h1 {
     font-weight: bolder;
     color: #41B3A3;
 }
+
+/*Main Page Information*/
+
+.main-page-info {
+    padding: 10px 10px;
+    margin: 175px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-page-info div {
+   height: 350px;
+   width: 350px;
+   border: 10px solid #C38D9E;
+   border-radius: 50%;
+   background-color: aliceblue;
+}
+
+.main-page-info h1 {
+    padding-top: 125px;
+}
+
+.main-page-info h1:hover {
+    font-size: 300%;
+}
+
 
 /* Footer */
 
