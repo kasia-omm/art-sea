@@ -68,7 +68,7 @@ nav li {
 #main-image {
     height: 700px;
     width: 100%;
-    background: url(../images/piotr-musiol-yVsvw3T_6t0-unsplash.jpg);
+    background: url(../images/SMALL-piotr-musiol-yVsvw3T_6t0-unsplash\ \(1\).jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -206,7 +206,7 @@ h1 {
 
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -228,6 +228,28 @@ h1 {
     font-size: 300%;
 }
 
+/* Small Gallery section */
+.small-gallery {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: 50px 0;
+}
+
+.image {
+    height: auto;
+    width: auto;    
+}
+
+figcaption {
+    width: auto;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
 
 /* Footer */
 

@@ -12,6 +12,17 @@
 
 # Testing
 
+### Bug 1
+After adding content that was copied from index.html page to  services.html page, the services.html stopped working as per screenshot below:
+
+<a href="/assets/images/bug1.png">Bug 1</a> FIX THIS IMAGE AS IT DOESN'T SHOW
+
+Bug was fixed by temporarily commenting out code copied from main page info section in the services.html section. I then realised that the codes for the <nav></nav> section contained spaces and services.html page name started with Capital letter. After correcting all those, services.html page started working again.
+
+### Bug 2 
+
+I realised that I downloaded the largest images rather than small so I needed to replace exising images in the assets/images folder to smaller.
+
 # Deployment
 
 # Citation of All sources
