@@ -337,3 +337,46 @@ iframe {
     display: block;
     margin: auto;
 }
+
+/* Contact Us Page Form */
+
+#contact-form {
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    right: 12.5%;
+}
+
+#content-left {
+    width: 50%;
+    height: 800px;
+    float: left;
+    background: url(../images/SMALL-jonathan-borba-R_7_gGKj68w-unsplash.jpg);
+    background-repeat: no repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#content-right {
+    width: 50%;
+    height: 800px;
+    float: right;
+    background-color: #C38D9E;
+}
+
+#content-right h2 {
+    text-align: center;
+    margin: 25px 10px;
+    line-height: 35px;
+}
+
+#form h5 {
+    text-align: justify;
+    margin: 10px 25px;
+}
+
+.message {
+    width: 450px;
+    height: 300px;
+}
+
