@@ -127,8 +127,6 @@ nav li {
     font-size: 100%;
     display: flex;
     margin: 0 35px 25px;
-    
-
 }
 
 #imagetext-list li {
@@ -240,7 +238,10 @@ h1 {
 
 .image {
     height: auto;
-    width: auto;    
+    width: auto;
+    border: 5px solid #C38D9E;
+    border-radius: 5px;
+    box-shadow: 10px -10px 10px #41B3A3;
 }
 
 figcaption {
@@ -255,7 +256,7 @@ figcaption {
 
 .column {
     float: left;
-    height: 250px;
+    height: 240px;
     width: 25%;
     background-color: #41B3A3;
     text-align: center;
@@ -286,4 +287,53 @@ figcaption {
 
 #map {
     border-radius: 20px;
+}
+
+/* Services Page Styling */
+
+.birthday-parties-main {
+   
+    margin: 50px 0;
+    width: 75%;
+    height: 100%;
+    position: relative;
+    left: 12.5%;
+    right: 12.5%;
+}
+.birthday-parties-main h1 {
+    background-color: #C38D9E;
+    text-align: center;
+    font-weight: bolder;
+}
+.birthday-parties-main h3 {
+    width: 100%;
+    margin: 25px 0; 
+    text-align: centre;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.birthday-parties-main p {
+    width: 100%;
+    text-align: centre;
+    line-height: 30px;    
+}
+
+span {
+    width: 75%;
+    padding-left: 25px;
+}
+
+strong {
+    color: #384955;
+}
+
+ul {
+    display: inline;
+    list-style-type: circle;
+}
+
+iframe {
+    display: block;
+    margin: auto;
 }
