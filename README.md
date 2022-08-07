@@ -3,9 +3,37 @@
 
 # List of Features
 
+The purpose of this web page is to give user details about services provided by ArtSea, Sligo based art and craft party provider and organiser. <br>
+<strong>The main page consists of:</strong>
+
+<ol>
+    <li>Logo - name ArtSea with icon of a painter's palette</li>
+    <li>Menu</li>
+<ul>
+        <li>Home - the main page</li>
+        <li>Services - breakdown of party packages on offer</li>
+        <li>Contact Us - form for user to fill out</li>
+    </li>
+</ul>
+    <li>Hero Image - relevant to the business and theme of the website image with text overlay box and repsonsive button</li>
+    <li>Introduction - short paragraph inviting users to check out the content of Services Page</li>
+    <li>Four buttons that redirect the user to the relevant section of the Services Page</li>
+    <li>Small gallery - indication of types of art and craft activities on offer</li>
+    <li>Footer - breakdown of essential information relating to ArtSea such as:
+<ul>
+        <li>Business logo (name) and address
+        <li>Contact Details: redirection to the Contact Us page, Telephone Number and E-mail Address</li>
+        <li>Social Media Icons linking to ArtSea social media pages</li>
+        <li>Site Map - liks to each page for ease of use</li>
+</li>
+</ol>
+
 # UX/UI
 
+
+
 ## Site Goals
+
 ## Design choices
 ## User Stories
 ## Wireframes
@@ -18,6 +46,8 @@ After adding content that was copied from index.html page to  services.html page
 <a href="/assets/images/bug1.png">Bug 1</a> FIX THIS IMAGE AS IT DOESN'T SHOW
 
 Bug was fixed by temporarily commenting out code copied from main page info section in the services.html section. I then realised that the codes for the <nav></nav> section contained spaces and services.html page name started with Capital letter. After correcting all those, services.html page started working again.
+
+<em>Note: I realised that website is not deployed and link is breaking each time I open the portal. This bug will need to be fixed once the website is deployed.</em>
 
 ### Bug 2 
 
@@ -52,5 +82,13 @@ Photo by <a href="https://unsplash.com/@jonathanborba?utm_source=unsplash&utm_me
   
 
 # Future Features
+
+Suggested future features:
+<ul>
+    <li>Testimonial Page - reviews and testimonials received from users, possible link to Trustpilot if used</li>
+    <li>Gallery page - Expand gallery by adding more photos from hosted parties</li>
+    <li>Suppliers' section - showcase trusted suppliers by including their logos with link to their online stores, possibility to add affiliate links</li>
+    <li>Places to Stay - partner up with local hotels/Airbnbs and offer dicsounted accomodation</li>
+</ul>
 
 # Summary
