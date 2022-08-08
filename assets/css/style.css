@@ -57,6 +57,18 @@ nav li {
     font-weight: bold;
 }
 
+/* .active {
+    border-bottom: 3px solid transparent;
+}
+
+.active:hover {
+    border-bottom: 3px solid #C38D9E;
+} */
+
+.top-nav a.active {
+    border-bottom: 3px solid #000F04;
+}
+
 /* main images */ 
 
 #image-outer {
@@ -87,11 +99,11 @@ nav li {
 }
 
 #image-text {
-    height: 200px;
+    height: 220px;
     width: 700px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
     padding-left: 10px;
 
     background-color: #C38D9E;
@@ -111,7 +123,7 @@ nav li {
 
 #image-text span {
     /*ArtSea word styling*/
-    font-size: 200%;
+    font-size: 180%;
     font-weight: 600;
     background-image: linear-gradient(to left, #41B3A3, #fff);
     color: transparent;
@@ -126,14 +138,15 @@ nav li {
 #image-text ul {
     font-size: 100%;
     display: flex;
-    margin: 0 35px 25px;
+    margin: 0 35px 30px;
 }
 
 #imagetext-list li {
     width: 100%;
     float: left;
     list-style-type: square;
-    margin-left: 20px;
+    margin-left: 45px;
+    margin-bottom: 15px;
     padding: 15px;
 }
 
@@ -267,6 +280,10 @@ figcaption {
 .column ul {
     list-style: none;
     font-size: 130%;
+}
+
+.column li:hover {
+    font-size: 200%;
 }
   
 .column h1 {
