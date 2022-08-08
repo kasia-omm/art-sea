@@ -79,8 +79,21 @@ Photo by <a href="https://unsplash.com/@grant_durr?utm_source=unsplash&utm_mediu
 Photo by <a href="https://unsplash.com/@lavievagabonde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jasmin Schreiber</a> on <a href="https://unsplash.com/s/photos/crafting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@jonathanborba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Borba</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
 
+https://www.w3schools.com/howto/howto_js_topnav.asp
+
+Photo by Vanessa Loring: https://www.pexels.com/photo/children-doing-crafting-7869797/
+
+Photo by Monstera: https://www.pexels.com/photo/happy-black-girl-with-colorful-crown-with-pompoms-7139982/
+
+Photo by <a href="https://unsplash.com/@ibrahimboran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ibrahim Boran</a> on <a href="https://unsplash.com/s/photos/birthday-party-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@taelynnmae?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Taelynn Christopher</a> on <a href="https://unsplash.com/s/photos/birthday-party-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+  Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/birthday-party-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+  Photo by Teona Swift: https://www.pexels.com/photo/folded-fabric-with-colorful-paints-on-white-background-6850777/
+  
 # Future Features
 
 Suggested future features:
