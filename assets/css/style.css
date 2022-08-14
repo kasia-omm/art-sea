@@ -401,7 +401,7 @@ iframe {
     height: 1000px;
     float: left;
     background: url(../images/SMALL-jonathan-borba-R_7_gGKj68w-unsplash.jpg);
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
@@ -501,24 +501,4 @@ iframe {
     width: 85px;
     margin: 2%;
     display: block;
-}
-
-.submit-button-hovered {
-    display: none;
-}
-
-.submit-button-hovered:hover {
-    background-color: aliceblue;
-    color: #000000;
-    border-left: 5px solid #41B3A3;
-    border-radius: 2%;
-    text-align: center;
-    height: 45px;
-    width: 85px;
-    margin: 2%;
-    display: block;
-}
-
-.submit-button:hover {
-    display: none;
 }
