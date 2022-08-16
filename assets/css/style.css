@@ -10,21 +10,13 @@ body {
     font-family: Ubuntu, sans-serif;
     }
 
-/*.background-img {
-    background-image: url('../images/pawel-czerwinski-AV06Lm42mVo-unsplash.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* headings and logo */
 
 #logo {
     font-family: 'Amatic SC', sans-serif;
     font-size: 350%;
     float: left;
-    margin-left: 60px;
+    margin-left: 2%;
     padding: 30px;
 }
 
@@ -57,13 +49,7 @@ nav li {
     font-weight: bold;
 }
 
-/* .active {
-    border-bottom: 3px solid transparent;
-}
-
-.active:hover {
-    border-bottom: 3px solid #C38D9E;
-} */
+/* To underline menu items when active*/
 
 .top-nav a.active {
     border-bottom: 3px solid #000F04;
@@ -187,7 +173,7 @@ h1 {
 #about-services {
     width: 100%;
     height: 100%;
-    margin: 100px 0;
+    margin: 80px 0;
     text-align: center;
     line-height: 55px;
     display: flex;
@@ -228,11 +214,11 @@ h1 {
    border: 10px solid #C38D9E;
    border-radius: 50%;
    background-color: aliceblue;
-   margin: 50px 0;
+   margin: 10px 0;
 }
 
 .main-page-info h1 {
-    padding-top: 125px;
+    padding-top: 120px;
 }
 
 .main-page-info h1:hover {
@@ -261,7 +247,6 @@ h1 {
 
 figcaption {
     width: auto;
-    text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     padding: 5px;
     text-align: center;
@@ -501,4 +486,170 @@ iframe {
     width: 85px;
     margin: 2%;
     display: block;
+}
+
+
+
+@media only screen and (max-width: 667px) {
+
+    /*Header, logo and menu items*/
+    header {
+        width: 100%;
+        line-height: 10px;
+    }
+
+    #logo {
+        margin: 0;
+        font-size: 300%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    nav li {
+        margin: 0.2rem;
+        font-size: 80%;
+    }
+    
+    #contact-form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #content-left {
+        display: none;
+    }
+
+    #content-right {
+        width: 100%;
+    }
+
+    /*Main image and text box*/
+    #image-outer {
+        width: 100%;
+        height: 350px;
+    }
+    #main-image {
+        width: 100%;
+        height: 350px;
+    }
+
+    #image-text {
+        height: 300px;
+        width: 50%;
+    
+        bottom: 95%;
+        left: 30%;
+    
+        position: relative;
+    }
+
+    #image-text span {
+        /*ArtSea word styling*/
+        font-size: 130%;
+        position: relative;
+        right: 9%;
+    
+    }
+
+    #image-text span, #image-text h1{
+        margin: 0 0px;
+    }
+    
+    #image-text ul {
+        font-size: 100%;
+        display: flex;
+        margin: 0 35px 30px;
+    }
+    
+    #imagetext-list li {
+        display: none;
+    }
+
+    .button {
+        width: 55%;
+        height: 30px;
+    
+        position: absolute;
+        bottom: 10px;
+        right: 22%;
+    }
+    
+    .button:hover {
+        width: 55%;
+    }
+
+    /*Main page info round buttons */
+
+    .main-page-info div {
+        height: 250px;
+        width: 250px;
+        border: 10px solid #C38D9E;
+        border-radius: 50%;
+        background-color: aliceblue;
+        margin: 10px 0;
+     }
+
+     .main-page-info h1 {
+        padding-top: 100px;
+        font-size: 200%;
+    }
+    
+    .main-page-info h1:hover {
+        font-size: 250%;
+    }
+
+    /*Small gallery*/
+
+    .small-gallery {
+        width: 100%;
+    }
+    
+    .image {
+        height: auto;
+        width: fit-content;
+        box-shadow: 10px -10px 10px #41B3A3;
+        margin-bottom: 5%;
+
+    }
+    
+    figcaption {
+        width: fit-content;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    /*Footer*/
+
+    .column {
+        position: relative;
+        width: 50%;
+        height: 180px;
+    }
+      
+    .column h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+    
+    .column p, .column li {
+        margin-top: 10px;
+        font-size: 80%;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    #map {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+
 }

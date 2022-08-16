@@ -92,8 +92,10 @@ The design of the website focused on the art and craft part of the business choo
 <li>Header and Footer - #41B3A3</li>
 <li>Sections title backgrounds - #C38D9E</li>
 <li>Button background - aliceblue </li>
-<li>Text color - #000000</li>
+<li>Text color - #000F04</li>
 <li>Bold text - #384955</li>
+
+<span width="100" height="100">![ArtSea_Color_Palette](/assets/images/ArtSea_color_palette_smaller.png)<span>
 
 ## User Stories
 
