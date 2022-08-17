@@ -117,7 +117,9 @@ nav li {
     -webkit-background-clip: text;
 }
 
-#image-text span, #image-text h1{
+#image-text span, #image-text h2{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 220%;
     margin: 0 30px;
 }
 
@@ -217,15 +219,25 @@ h1 {
    margin: 10px 0;
 }
 
-.main-page-info h1 {
+.main-page-info h2 {
     padding-top: 120px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 200%;
+    text-align: center;
 }
 
-.main-page-info h1:hover {
+.main-page-info h2:hover {
     font-size: 300%;
 }
 
 /* Small Gallery section */
+.sample-activities {
+    width: 380px;
+    height: auto;
+    margin: 0 1rem 1rem;
+    text-align: justify;
+}
+
 .small-gallery {
     width: 100%;
     display: flex;
@@ -367,9 +379,10 @@ ul {
 }
 
 /* YouTube video styling */
-iframe {
+#video-1 {
+    width: fit-content;
     display: block;
-    margin: auto;
+    margin: 0;
 }
 
 /* Contact Us Page Form */
@@ -488,7 +501,25 @@ iframe {
     display: block;
 }
 
+#thank-you-message {
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: px;
+    background-color: #C38D9E;
+    text-align: center;
+    font-size: 100%;
+    line-height: 35px;
+    margin-bottom: auto;
+}
 
+#thank-you-message h2 {
+    margin: 25px 0;
+}
+
+#thank-you-message a {
+    padding: 25px;
+    margin: 25px;
+}
 
 @media only screen and (max-width: 667px) {
 
@@ -539,10 +570,10 @@ iframe {
     }
 
     #image-text {
-        height: 300px;
+        height: 250px;
         width: 50%;
     
-        bottom: 95%;
+        bottom: 90%;
         left: 30%;
     
         position: relative;
@@ -550,14 +581,15 @@ iframe {
 
     #image-text span {
         /*ArtSea word styling*/
-        font-size: 130%;
+        font-size: 160%;
         position: relative;
         right: 9%;
-    
     }
 
-    #image-text span, #image-text h1{
-        margin: 0 0px;
+    #image-text span, #image-text h2{
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
     }
     
     #image-text ul {
@@ -594,13 +626,13 @@ iframe {
         margin: 10px 0;
      }
 
-     .main-page-info h1 {
+     .main-page-info h2 {
         padding-top: 100px;
         font-size: 200%;
     }
     
-    .main-page-info h1:hover {
-        font-size: 250%;
+    .main-page-info h2:hover {
+        font-size: 240%;
     }
 
     /*Small gallery*/
@@ -618,7 +650,7 @@ iframe {
     }
     
     figcaption {
-        width: fit-content;
+        width: auto;
         text-align: center;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -651,5 +683,61 @@ iframe {
         height: 100%;
     }
 
+    /*Contact Us Page*/
+    #contact-form {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    
+    #content-left {
+        display: none;
+    }
 
+    #content-right {
+        width: 100%;
+    }
+
+    .form-details-1 {
+        width: 100%;
+        align-items: left;
+    }
+    
+    .form-details-2 {
+        text-align: left;
+    }
+    
+    .label-message {
+        margin: 2%;
+    }
+    
+    .message {
+        width: 90%;
+        height: 250px;
+    }
+    
+    .sub-form {
+        height: auto;
+        width: 100%;
+        position: relative;
+        left: 0;
+        right: 0;
+        text-align: left;
+    }
+    
+    .submit-button {
+        background-color: aliceblue;
+        color: #000000;
+        border-left: 5px solid #41B3A3;
+        border-radius: 2%;
+        text-align: center;
+        height: 45px;
+        width: 85px;
+        margin: 2%;
+        display: block;
+    }
+    
+    
 }
