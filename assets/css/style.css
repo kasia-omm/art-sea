@@ -238,6 +238,11 @@ h1 {
     text-align: justify;
 }
 
+.sample-activities h2 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: ;
+}
+
 .small-gallery {
     width: 100%;
     display: flex;
