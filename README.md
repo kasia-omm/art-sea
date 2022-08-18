@@ -179,6 +179,13 @@ Photo by <a href="https://unsplash.com/@taelynnmae?utm_source=unsplash&utm_mediu
   Photo by Teona Swift: https://www.pexels.com/photo/folded-fabric-with-colorful-paints-on-white-background-6850777/
 
   Photo by <a href="https://unsplash.com/@khachiksimonian?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Khachik Simonian</a> on <a href="https://unsplash.com/s/photos/wings-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+  This favicon was generated using the following font:
+
+- Font Title: Amatic SC
+- Font Author: Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)
+- Font Source: http://fonts.gstatic.com/s/amaticsc/v24/TUZ3zwprpvBS1izr_vOMscG6eb8D3WTy-A.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
   
   
 # Future Features

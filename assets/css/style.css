@@ -65,7 +65,7 @@ nav li {
 #main-image {
     height: 700px;
     width: 100%;
-    background: url(../images/SMALL-piotr-musiol-yVsvw3T_6t0-unsplash.jpg);
+    background: url(../images/main-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -224,7 +224,7 @@ h2 {
 
 /* Small Gallery section */
 .sample-activities {
-    width: 380px;
+    width: 75%;
     height: auto;
     margin: 0 1rem 1rem;
     text-align: justify;
@@ -522,8 +522,72 @@ blockquote {
     padding: 25px;
     margin: 25px;
 }
+/*For screens larger than 1200px*/
+
+@media only screen and (min-width: 1201px) {
+
+    /*Main Page small gallery*/
+    .sample-activities {
+        width: 70%;
+        height: fit-content;
+        text-align: center;
+        margin: 2% 10%;
+        padding: 2% 2%;
+    }
+
+    .small-gallery {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        flex-shrink: 2;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    /*Services Page*/
+    .small-gallery-2 {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        flex-shrink: 2;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .birthday-parties-main {
+        font-size: larger;
+    }
+
+    #birthday-section h3, #stag-hen-parties h2, #custom-party h2, #craft-and-destroy h2 {
+        margin: 50px 0;
+    }
+
+    /*Contact Us Page*/
+    .sub-form {
+        height: auto;
+        width: 100%;
+        position: relative;
+        left: 0;
+        right: 0;
+        text-align: left;
+    }
+
+    .form-details-1 {
+        width: 100%;
+    }
+
+    #map {
+        border-radius: 20px;
+        width: 95%;
+        height: 95%;
+    }
+
+}
 
 /*For screens 1200px or smaller*/ 
+
 @media only screen and (max-width: 1200px) {
 
     /*Main image text box*/
@@ -535,6 +599,34 @@ blockquote {
         left: 10%;
     
         position: relative;
+    }
+
+    .sample-activities {
+        width: 70%;
+        height: fit-content;
+        text-align: center;
+        margin: 2% 2%;
+        padding: 2% 2%;
+    }
+
+    .small-gallery {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        flex-shrink: 2;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .small-gallery-2 {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        flex-shrink: 2;
+        row-gap: 20px;
+        column-gap: 20px;
     }
 
     #contact-form {
@@ -564,6 +656,8 @@ blockquote {
 /*For medium size screens up to 950px wide*/
 
 @media only screen and (max-width: 950px) {
+    
+    /*Main Page*/
     #image-text {
         height: 250px;
         width: 80%;
@@ -572,6 +666,32 @@ blockquote {
         left: 10%;
     
         position: relative;
+    }
+
+    .small-gallery {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        flex-shrink: 2;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    /*Footer*/
+    #map {
+        border-radius: 20px;
+        width: 95%;
+        height: 95%;
+    }
+
+    /*Contact Us Page*/
+    #content-left {
+        width: 40%;
+    }
+
+    #content-right {
+        width: 60%;
     }
 }
 
