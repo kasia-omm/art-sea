@@ -15,8 +15,8 @@ h1 {
         font-size: 200%;
         text-align: center;
 }
-/* headings and logo */
 
+/* headings and logo */
 #logo {
     font-family: 'Amatic SC', sans-serif;
     font-size: 350%;
@@ -51,13 +51,11 @@ nav li {
 }
 
 /* To underline menu items when active*/
-
 .top-nav a.active {
     border-bottom: 3px solid #000F04;
 }
 
 /* main images */ 
-
 #image-outer {
     height: 700px;
     width: 100%;
@@ -67,7 +65,7 @@ nav li {
 #main-image {
     height: 700px;
     width: 100%;
-    background: url(../images/SMALL-piotr-musiol-yVsvw3T_6t0-unsplash\ \(1\).jpg);
+    background: url(../images/SMALL-piotr-musiol-yVsvw3T_6t0-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -97,7 +95,7 @@ nav li {
     border: 10px solid #41B3A3;
     border-radius: 20px;
 
-    bottom: 450px;
+    bottom: 400px;
     right: 100px;
 
     position: absolute;
@@ -164,12 +162,10 @@ nav li {
 }
 
 /* welcome message */
-
 h2 {
     font-family: 'Amatic SC', sans-serif;
     font-size: 250%;
     letter-spacing: 2px;
-    text-align: center;
     padding: 5px;
 }
 
@@ -195,7 +191,6 @@ h2 {
 }
 
 /*Main Page Information*/
-
 .main-page-info {
     padding: 15px;
     margin: 0;
@@ -267,7 +262,6 @@ figcaption {
 }
 
 /* Footer */
-
 .column {
     float: left;
     height: 240px;
@@ -306,11 +300,9 @@ figcaption {
 #map {
     border-radius: 20px;
     margin: 5px 5px;
-
 }
 
 /* Services Page Styling */
-
 .birthday-parties-main {
    
     margin: 50px 0;
@@ -320,11 +312,13 @@ figcaption {
     left: 12.5%;
     right: 12.5%;
 }
+
 .birthday-parties-main h2 {
     background-color: #C38D9E;
     text-align: center;
     font-weight: bolder;
 }
+
 .birthday-parties-main h3 {
     width: 100%;
     margin: 25px 0; 
@@ -335,12 +329,11 @@ figcaption {
 
 .birthday-parties-main p {
     width: 100%;
-    text-align: center;
+    text-align: left;
     line-height: 30px;
 }
 
 /* Images under Birthday Parties for big and small */
-
 .small-gallery-2 {
     width: 100%;
     display: flex;
@@ -385,12 +378,12 @@ ul {
 /* YouTube video styling */
 #video-1 {
     width: fit-content;
-    display: block;
-    margin: 0;
+    position: relative;
+    left: 35%;
+    right: 35%;
 }
 
 /* Contact Us Page Form */
-
 #contact-form {
     width: 75%;
     position: relative;
@@ -413,6 +406,10 @@ ul {
     height: 1000px;
     float: right;
     background-color: #C38D9E;
+}
+
+#content-right h2 {
+    text-align: center;
 }
 
 blockquote {
@@ -455,8 +452,8 @@ blockquote {
     height: auto;
     width: 600px;
     position: relative;
-    left: 0;
-    right: 10%;
+    left: 5%;
+    right: 5%;
     text-align: left;
 }
 
@@ -526,7 +523,60 @@ blockquote {
     margin: 25px;
 }
 
-@media only screen and (max-width: 667px) {
+/*For screens 1200px or smaller*/ 
+@media only screen and (max-width: 1200px) {
+
+    /*Main image text box*/
+    #image-text {
+        height: 250px;
+        width: 80%;
+    
+        bottom: 80%;
+        left: 10%;
+    
+        position: relative;
+    }
+
+    #contact-form {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+
+    .sub-form {
+        height: auto;
+        width: 100%;
+        position: relative;
+        left: 0;
+        right: 0;
+        text-align: left;
+    }
+
+    .form-details-1 {
+        width: 100%;
+    }
+}
+
+
+
+/*For medium size screens up to 950px wide*/
+
+@media only screen and (max-width: 950px) {
+    #image-text {
+        height: 250px;
+        width: 80%;
+    
+        bottom: 90%;
+        left: 10%;
+    
+        position: relative;
+    }
+}
+
+/*For screens smaller than 768px*/
+@media only screen and (max-width: 768px) {
 
     /*Header, logo and menu items*/
     header {
@@ -548,20 +598,6 @@ blockquote {
     nav li {
         margin: 0.2rem;
         font-size: 80%;
-    }
-    
-    #contact-form {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    
-    #content-left {
-        display: none;
-    }
-
-    #content-right {
-        width: 100%;
     }
 
     /*Main image and text box*/
@@ -586,22 +622,18 @@ blockquote {
 
     #image-text span {
         /*ArtSea word styling*/
-        font-size: 160%;
+        font-size: 130%;
         position: relative;
         right: 9%;
     }
 
-    #image-text span, #image-text h2{
-        width: 100%;
-        margin: 1rem 0;
+    #image-text span, #image-text h2 {
+        width: 90%;
+        margin: 0 0;
         text-align: center;
     }
-    
-    #image-text ul {
-        font-size: 100%;
-        display: flex;
-        margin: 0 35px 30px;
-    }
+
+
     
     #imagetext-list li {
         display: none;
@@ -621,6 +653,10 @@ blockquote {
     }
 
     /*Main page info round buttons */
+
+    #about-services p, #about-services h2 {
+        margin: 5px;
+    }
 
     .main-page-info div {
         height: 250px;
@@ -644,18 +680,18 @@ blockquote {
 
     .small-gallery {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     
     .image {
-        height: auto;
-        width: fit-content;
-        box-shadow: 10px -10px 10px #41B3A3;
+        height: 100%;
+        width: auto;
         margin-bottom: 5%;
-
     }
     
     figcaption {
-        width: auto;
+        width: 90%;
         text-align: center;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -707,7 +743,7 @@ blockquote {
 
     .form-details-1 {
         width: 100%;
-        align-items: normal;
+        /* align-items: flex-start; */
     }
     
     .form-details-2 {
@@ -744,5 +780,11 @@ blockquote {
         display: block;
     }
     
-    
+    /*ServiceS Page*/
+    #video-1 {
+        width: 95%;
+        position: relative;
+        left: 0;
+    }
 }
+
