@@ -1,14 +1,23 @@
-# Welcome ArtSea [*place link*](ArtSea) 
-### ArtSea was created from the need of crafting 
+# [ArtSea](https://kasia-omm.github.io/art-sea/) - where art and craft meets fun!
+### ArtSea was created from the need of alternative party provider in the North West.<br> Surrounded by the ocean and beautful mountains, Sligo is nuber 1 place to celebrate your special occasion. ArtSea provides fun, creative and different birthday, stag and hen parties as well as corporate or miscellaneous group events. The purpose of this website is to provide information for potential party organisers about the range of services on offer and how to get in touch to enquire or book the event.<br>
+
+#### Inspired by the colours of ArtSea branding, their unique craft and destory room and considering that 90% of their customer base are women, I chose popular green and pink colours for the main colour theme. The user should straight away be able to recognise the fact that this website is about a business that deals with art through various icons and images resembling art & craft.<br>
+
+#### The website consists of three pages, giving the first time user an opportunity to get to know ArtSea, learn about sample activities and full range of services on offer. There is also a contact page that allows the user to promptly contact ArtSea for their services.
+
+![ArtSea 3 pages](assets/readme-images/Am-I-responsive-3-pg.png)
 
 <!-- create table of contents -->
 
 # List of Features
 
-The purpose of this web page is to give user details about services provided by ArtSea, Sligo based art and craft party provider and organiser. <br>
-The ArtSea website is designed allowing three pages: index.html representing Home Pahe, services.html page representing the Services breakdown offered by ArtSea and contact.html allowing for submission Contcat Us form page. Below you will find a list of features for each page.
+The ArtSea website is designed allowing three pages: index.html representing Home Page, services.html page representing the Services breakdown offered by ArtSea and contact.html allowing for submission Contcat Us form page. Below you will find a list of features for each page.
 
-<strong>The Home page consists of:</strong>
+***The Home page consists of:***
+
+**Navigation Bar**
+
+![NavigatioN](assets/readme-images/navigaition-bar.png)
 
 <ol>
     <li>Logo - name ArtSea with icon of a painter's palette</li>
@@ -18,11 +27,22 @@ The ArtSea website is designed allowing three pages: index.html representing Hom
         <li>Services - breakdown of party packages on offer</li>
         <li>Contact Us - form for user to fill out</li>
 </ul>
-    <li>Hero Image - relevant to the business and theme of the website image with text overlay box and repsonsive button</li>
-    <li>Introduction - short paragraph inviting users to check out the content of Services Page</li>
-    <li>Four buttons that redirect the user to the relevant section of the Services Page</li>
-    <li>Small gallery - indication of types of art and craft activities on offer</li>
-    <li>Footer - breakdown of essential information relating to ArtSea such as:
+
+Navigation menu is responsive and on smaller screens it changes to vertical for ease of access. There is a possibility to add a hamburger menu for mobile screens in the future. 
+
+![Smaller Nav](assets/readme-images/smaller-nav.png)
+
+**Hero Image and Main Page Information**
+
+![Hero Image](assets/readme-images/her-image-intro.png)
+
+<li>Hero Image - relevant to the business and theme of the website image with text overlay box and repsonsive button</li>
+<li>Introduction - short paragraph inviting users to check out the content of Services Page</li>
+<li>Four buttons that redirect the user to the relevant section of the Services Page</li>
+
+![4 buttons](assets/readme-images/4-buttons.png)
+<li>Small gallery - indication of types of art and craft activities on offer</li>
+<li>Footer - breakdown of essential information relating to ArtSea such as:
 <ul>
         <li>Business logo (name) and address
         <li>Contact Details: redirection to the Contact Us page, Telephone Number and E-mail Address</li>
