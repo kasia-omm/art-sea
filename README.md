@@ -16,6 +16,7 @@ The ArtSea website is designed allowing three pages: index.html representing Hom
 ***The Home page consists of:***
 
 **Navigation Bar**
+It is the same navigation bar across all the pages for uniform layout of the website. 
 
 ![NavigatioN](assets/readme-images/navigaition-bar.png)
 
@@ -34,14 +35,18 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
 
 **Hero Image and Main Page Information**
 
-![Hero Image](assets/readme-images/her-image-intro.png)
-
 <li>Hero Image - relevant to the business and theme of the website image with text overlay box and repsonsive button</li>
 <li>Introduction - short paragraph inviting users to check out the content of Services Page</li>
+
+![Hero Image](assets/readme-images/her-image-intro.png)
+
 <li>Four buttons that redirect the user to the relevant section of the Services Page</li>
 
 ![4 buttons](assets/readme-images/4-buttons.png)
 <li>Small gallery - indication of types of art and craft activities on offer</li>
+
+![Small Gallery](assets/readme-images/small-gallery.png)
+
 <li>Footer - breakdown of essential information relating to ArtSea such as:
 <ul>
         <li>Business logo (name) and address
@@ -49,6 +54,8 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
         <li>Social Media Icons linking to ArtSea social media pages</li>
         <li>Site Map - liks to each page for ease of use</li>
 </ul>
+
+![Footer 1](assets/readme-images/footer-1.png)
 </ol>
 
 <strong>The Services page consists of:</strong>
@@ -65,17 +72,21 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
         Section features include:
         <ul>
             <li>text area</li>
-            <li>text area with gallery</li>
-            <li>gallery section with image width of 300px, height will be automatically set to fit the space provided</li>
+            <li>gallery</li>
             <li>embeded videos</li>
         </ul>
-    <li>Footer - breakdown of essential information relating to ArtSea such as:
+Click to view below:
+
+[Services Page](https://kasia-omm.github.io/art-sea/services.html)
+    <li>Footer (this footer is also used on Contact Us Page) - breakdown of essential information relating to ArtSea such as:
 <ul>
         <li>Business logo (name) and address
         <li>Contact Details: redirection to the Contact Us page, Telephone Number and E-mail Address</li>
         <li>Social Media Icons linking to ArtSea social media pages</li>
         <li>Interactive Map - showing location of the business with possibility of generating directions through Google Maps</li>
 </ul>
+
+![Footer 2](assets/readme-images/footer-2.png)
 </ol>
 
 <strong>The Contact Us page consists of:</strong>
@@ -88,7 +99,7 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
         <li>Services - breakdown of party packages on offer</li>
         <li>Contact Us - form for user to fill out</li>
 </ul>
-    <li>One section where 50% is allowed for an image and 50% is allowed for a Contact us form</li>
+    <li>One section where 50% is allowed for an image and 50% is allowed for a Contact us form (as this form is responsive on smaller screens the image disappears and the form takes the full width of the screen)</li>
     <li>Form includes the following fields:</li>
     <ul>
         <li>First Name - required field</li>
@@ -96,13 +107,53 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
         <li>Mobile Number - required field</li>
         <li>Email Address - required field</li>
         <li>Dropdown list of party options to choose from</li>
-        <li>Texarea - allowance of 30 columns and 10 rows</li>
+        <li>Textarea - allowance of 30 columns and 10 rows</li>
+
+![Form](assets/readme-images/form.png)
         <li>Responsive Submit button - after user clicks submit, thank you message appears</li>
+![Thank you](assets/readme-images/thank-you-note.png)
     </ul>
+
+By keeping the same style and format across the website pages, user receives consistency across sections with some elements adapted to the size of the screen for ease of access. The navigation menu remians the same across all pages, the footer changes with the addition of a map on Services and Contact Us pages, which seemed more appropriate for added value to the user. The first page and thank you page have a site map with navigation to other pages. 
+
+Footer contains interactive fields such as telephone number and email. User may click on each field which in return brings them to the calling service provider such as Skype or email provider set as default on their device. This added feature provides additional functionality and provide faster opportunity of potential contact. Copy and paste of telephone number or email is eliminated. Each field opens up in a separate window as per guidelines. 
 
 # UX/UI
 
 ## Site Goals
+
+ArtSea site goal is to encourage the user to choose ArtSea for their party. In order to achieve this goal, user must find the navigation through the website quick an easy. According to The Web Content Accessibility Guidelines (WCAG) [WCAG](https://blog.hubspot.com/blog/tabid/6307/bid/30557/6-guidelines-for-exceptional-website-design-and-usability.aspx) websites must be 
+
+Perceivable: Visitors are aware of the content on your site.<br>
+Operable: The functionality of your website should be possible in different ways.<br>
+Understandable: All content and alerts can be easily understood.<br>
+Robust: Your website is usable across different assistive technologies, devices, and browsers.<br>
+
+>Perceivable: Visitors are aware of the content on your site.<br>
+
+User is aware of the content of the website as information is clearly laid out, intuitive and presented with high contrast 
+
+>Operable: The functionality of your website should be possible in different ways.<br>
+
+User is able to operate the website on various size devices, from mobile phones, through tablets and desktops to large screen monitors. All links enclosed within the websites are working and alternative titles are provided if such a case should happen that the link or image was to become broken.
+
+>Understandable: All content and alerts can be easily understood.<br>
+
+User is able to understand the content and may navigate through photos and videos as required. Videos are not on autoplay and form fields as well as buttons are fully functional. 
+
+>Robust: Your website is usable across different assistive technologies, devices, and browsers.<br>
+
+Visually impaired user will be able to use a text reader that will have no problem reading out each section of the website with alternative and aria labels provided. 
+
+Summing all up, ArtSea website is accessible for all users.
+
+<hr>
+
+The navigation of the website attracts the user ro navigate to Contact Us form. On the Main Page, there is a link to go directly to Services Page from which user may navigate to Contact Us form after learning about services.
+
+There are several call to action buttons on the Main Page such as 'Let's craft!' on the overlay text box on Hero Image, as well as Contact Us link in the footer.  
+
+![Call to Action](assets/readme-images/call-to-action.png)
 
 ## Design choices
 
