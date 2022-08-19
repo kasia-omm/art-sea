@@ -258,6 +258,9 @@ Thank you Page came up with no errors as a result of testing:
 
 ![Thank you Page](assets/readme-images/thank-you.html-test.png)<br>
 
+CSS style sheet was validated and came up with no errors:
+
+![CSS Validation](assets/readme-images/css-validator.png)
 <hr>
 
 Contrast was tested by using [Coolors Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)<br>
