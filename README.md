@@ -149,7 +149,7 @@ Summing all up, ArtSea website is accessible for all users.
 
 <hr>
 
-The navigation of the website attracts the user ro navigate to Contact Us form. On the Main Page, there is a link to go directly to Services Page from which user may navigate to Contact Us form after learning about services.
+The navigation of the website attracts the user to navigate to Contact Us form. On the Main Page, there is a link to go directly to Services Page from which user may navigate to Contact Us form after learning about services.
 
 There are several call to action buttons on the Main Page such as 'Let's craft!' on the overlay text box on Hero Image, as well as Contact Us link in the footer.  
 
@@ -157,7 +157,7 @@ There are several call to action buttons on the Main Page such as 'Let's craft!'
 
 ## Design choices
 
-The design of the website focused on the art and craft part of the business choosing lively colours and images.
+The design of the website focusses on the art and craft part of the business choosing lively colours and images that are in line with branding and general business theme. First time user knows straight away that the website is about party packages that involve creativity and art.
 
 <ol>Theme colors:</ol>
 <li>Header and Footer - #41B3A3</li>
@@ -168,24 +168,78 @@ The design of the website focused on the art and craft part of the business choo
 
 <span width="100" height="100">![ArtSea_Color_Palette](/assets/images/ArtSea_color_palette_smaller.png)<span>
 
+The general rule for the website was to keep the navigation menu and footer the same across all pages. The main page footer differs from Services page or Contact Us page, as the objective was to enhance users' experience by making it easier for them to navigate to other pages of the website from the main page. Therfore, the decision was made to include site map with links to other pages on the main page and replace it with Google map on the other two pages. By doing so, user can quickly navigate to other pages and find the location of the business on their navigation journey. This also allows to keep the flow throughout all pages.<br>
+
+In the footer, for ease of access, links were added to external telephone calling and emailing clients, making it easy for user to contact ArtSea.<br>
+
+The hero image thatwas chosen for the main page makes the user feel that they landed on the right page if they are looking for art and craft party supplier. It gives the page the urban, freestyle feel and makes the user interested in what ArtSea has on offer. The text overlay brings attention to statements that make the user curious to find out more about this unique experience at ArtSea. It also specifies location so that users that are from far abroad do not waste their time if they landed on the page and are unable to travel thus far.<br>
+
+The interactive and responsive round buttons on the main page create a clean structured format and bring attention to the services on offer. After clicking, tey bring the user to the required section on the website, without opening in the new tab, allowing for the user to stay on the page as long as possible.<br>
+
+There was a request to showcase some of the activities offered at ArtSea and this was achieved by creating small galleries with shadow frames keeping the style and colours within the colour palette of the website. Small captions at the bottom of the page explain the activities allowing users to understand what they are.<br>
+
+The Contact Us page inludes a form, which has required fields specified. Among First and Last Name, there is a phone number, and email address. When it comes to the telephone number, there was a conscious decision made to use input type="text" instead of input type="tel". If tel input type was specified this filed would have been validated and number of different country codes therfore for users' ease of access the field was changed to text with recommended phone number format placeholder.<br>
+
 ## User Stories
 
-User experience:
+**Persona 1** - Parent that wants to organise a birthday party for his/her child, living in Sligo or thin 30 min drive. He/She is looking for party where kids' creativity will be used to have time with their friends and create something they can bring home. The parent is looking for a party where all supplies are provided and minimum effort is required. They want to be able to book the party shortly after consulting the webpage.<br>
 
-Persona 1 - Parent that wants to organise a birthday party for his/her child, living in Sligo or thin 30 min drive. He/She is looking for party where kids' creativity will be used to have time with their friends and create something they can bring home. The parent is looking for a party where all supplies are provided and minimum effort is required. They want to be able to book the party shortly after consulting the webpage. 
+**Persona 2** - Birthday party organiser for partner, friend, parent, children where the birthday is round such as  18th, 21st,30th, 40th, 50th, 60th, 70th, etc. They are looking for party with a twist where the group will spend quality time together, making a piece of art and craft and have fun by possibly destroying it in the Craft and Destroy Room. Suitable for non-drinkers, creative people or those that prefer non-physical activities. Quality time with their party is more important than going out. They are looking for package with meal - allow partner discounts for local restaurant.<br>
 
-Persona 2 - Birthday party organiser for partner, friend, parent, children where the birthday is round such as  18th, 21st,30th, 40th, 50th, 60th, 70th, etc. They are looking for party with a twist where the group will spend quality time together, making a piece of art and craft and have fun by possibly destroying it in the Craft and Destroy Room. Suitable for non-drinkers, creative people or those that prefer non-physical activities. Quality time with their party is more important than going out. They are looking for package with meal - allow partner discounts for local restaurant. 
+**Persona 3** - Stag and Hen party oraniser, typically brother, sister of best friend. They are looking for a fun, different stag or hen party with the emphasis on the party rather than craft. They would like to incorporate typical symbolic part of the stag and hen party in their package.<br>
 
-Persona 3 - Stag and Hen party oraniser, typically brother, sister of best friend. They are looking for a fun, different stag or hen party with the emphasis on 
+**Persona 4** - Person that was assigned a task of organising a corporate social event with a difference. They were given budget per person and number of people to attend the event.<br>
 
-First time user knows that the website is about art and craft birthday party organiser.
-First time user learns about services provided by ArtSea.
-First time user is called to action - to book a party.
-Firts time user finds contact details to make booking easily.
+**Persona 5** - Group of friends that want to go away for the weekend, having fun, doing something different in a good location. They want to have fun and spend time together.<br>
+
+>**Persona 1** - Parent that wants to organise a birthday party for his/her child, living in Sligo or thin 30 min drive. He/She is looking for party where kids' creativity will be used to have time with their friends and create something they can bring home. The parent is looking for a party where all supplies are provided and minimum effort is required. They want to be able to book the party shortly after consulting the webpage.
+
+Persona 1 type user of the website will find all the relevant information on the page specifying the age, number of children required for party andprice per person. This user will also find the timeline required to book the party. As this user most likely is juggling several things at once, providing information and ease of access to contact ArtSea to book the party is what they are looking for. 
+
+>**Persona 2** - Birthday party organiser for partner, friend, parent, children where the birthday is round such as  18th, 21st,30th, 40th, 50th, 60th, 70th, etc. They are looking for party with a twist where the group will spend quality time together, making a piece of art and craft and have fun by possibly destroying it in the Craft and Destroy Room. This person wants to accomodate non-drinkers, creative people or those that prefer non-physical activities. Quality time with their party is more important than going out. They are looking for package with meal.
+
+Persona 2 type user wants to be able to book a birthday party that is customised to their needs. This users wants to be able to get in touch to discuss therfore easy access to contact form and telephone number was provided. This user is potentially looking to dine after the party so there is a link given to partner local restaurant giving them the opportunity to book all in one package. Recommended to this user is Craft and Destroy room where party member can destroy piece of craft creating memories for life.
+
+>**Persona 3** - Stag and Hen party oraniser, typically brother, sister of best friend. They are looking for a fun, different stag or hen party with the emphasis on the party rather than craft. They would like to incorporate typical symbolic part of the stag and hen party in their package.<br>
+
+Persona 3 type user is looking for an activity for their party with a twist. User can quickly navigate to the video of the Craft and Destroy Room on the same page and get in tocuh to discuss the requirements. Sample activities provided in the small gallery in this section allows the user to see what activities were chosen by previous party goers. This in turn helps the user make up their mind. 
+
+>**Persona 4** - Person that was assigned a task of organising a corporate social event with a difference. They were given budget per person and number of people to attend the event.
+
+Persona 4 type of user is the not very common at ArtSea therfore section could be expanded in the future to attract more customers. There is a statement on the website though, that these types of events are also offered and to get in touch through Contact Us form. 
+
+>
+**Persona 5** - Group of friends that want to go away for the weekend, having fun, doing something different in a good location. They want to have fun and spend time together.
+
+Persona 5 type user is looking for a custom package. The website allows the user to see that although the activities are chosen by birthday party or stag and hen party goers, they are not occasion specific and may be tailored to their needs. 
+
+<hr>
+
+Summarising UI/UX section the colcusion is as follows:
+<ul>
+<li>First time user knows that the website is about art and craft birthday party organiser.</li>
+<li>First time user learns about services provided by ArtSea.</li>
+<li>First time user is called to action - to book a party.</li>
+<li>Firts time user finds contact details to make booking easily.</li>
+</ul>
 
 ## Wireframes
 
+Wireframes help determine what route to go with the website design. Initially I created them by hand and used them as a reference to what the website should look like. During the design process, some features that looked good on paper, transcribed into other features that simply made more sense after doing some research. I focused on desktop website size during this website design. In the future I will definitely take a mobile first approach and focus on getting the smaller screen size responsiveness limiting the number of css rules as a result. 
+
+Below wireframe was created as a starting point of the design. 
+
+![Wireframe 1](assets/readme-images/Home-Page-WIREFRAME.png)
+
 # Testing
+
+Testing the website took plase throughout the design process. It invloved checking if website works on different web browser, wheter it is responsive and if html and css files go through the validation without throwing out any errors. Any errors that were spotted throughout the design are documented in this section.<br>
+
+As this is a static website, testing is performedon the visual aspect of the website.<br>
+Sections should not overalp, text should be clearly visible and not go out of a specified section. Images should load and if the link for some reason appears to be broken, the alternative description should be displayed. Testing was performed on at least two web browsers and for all screen sizes. Any link included onthe website should direct the user to the correct section of the website. 
+
+The table below represents testing of the website with expected outcome and the actual test result.
+
 
 ### Bug 1
 After adding content that was copied from index.html page to  services.html page, the services.html stopped working as per screenshot below:
@@ -209,6 +263,38 @@ I realised that I downloaded the largest images rather than small so I needed to
 On main page when I clicked on Lets's party! button, it was opening page in a separate tab but with error 404: File not found as per image below. I fixed it by correcting href link as services.html page name changed from Capital letter to small letter. 
 
 # Deployment
+
+Before deployment may happen, the website is designed in GitHub and GitPod. The following stepse were taken for building ArtSea website:
+
+**To create a GitHub repository follow the steps:**
+
+Step 1: Log in to GitHub<br>
+Step 2: Use template provided by Code Institute by clicking on the link provided [CI Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)<br>
+Step 3: Click on use this template<br>
+Step 4: Create a repository name and add description for the website (name must be unique)<br>
+Step 5: Click create repository from template<br> 
+Step 6: Click on GitPod to create a Workspace for your repoitory
+
+**To open workspace in GitPod follow the steps:**
+
+Step 1: Log in to GitPod<br>
+Step 2: Click on your icon and navigate to Workspaces
+Step 3: Click on the Workspace you want to work on (inactive workspaces are deleted after 14 days, however if you pushed your code to GitHub, you will be able to open the Workspace again)<br>
+Step 4: Make any required changes to your code and git add . git commit and git push as you go<br>
+
+**To deploy website on GitHub Pages follow the steps:**
+
+Step 1: Log in to GitHub<br>
+Step 2: Open list of your repositories<br>
+Step 3: Click on the repository you would like to deploy<br>
+Step 4: Click on Settings<br>
+Step 5: Navigate to Pages section<br>
+Step 6: Choose Branch from dropdown list - Main<br>
+Step 7: Click Save<br>
+
+Deployment may take a longer than expected. You can refresh the page and when a link with "Your site is live" appears, click on it to view your live website. Please note that some websites make take longer to take a full effect of your styling. Please keep refreshing until you reach the desired outcome. If there are differences between you repository in GitPod and deployed website, it would be recommended to check for differences in the code between the two repositories.<br>
+
+Once the website is depoloyed, if there are any other changes to be made, commands git add. git commit -m and git push must be run in GitPod to view the required changes. 
 
 # Citation of All sources
 Images Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/s/photos/wave-art?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
