@@ -1,7 +1,7 @@
-# [ArtSea](https://kasia-omm.github.io/art-sea/) - where art and craft meets fun!
-### ArtSea was created from the need of alternative party provider in the North West.<br> Surrounded by the ocean and beautful mountains, Sligo is nuber 1 place to celebrate your special occasion. ArtSea provides fun, creative and different birthday, stag and hen parties as well as corporate or miscellaneous group events. The purpose of this website is to provide information for potential party organisers about the range of services on offer and how to get in touch to enquire or book the event.<br>
+# [ArtSea](https://kasia-omm.github.io/art-sea/) - where art and craft meet fun!
+### ArtSea was created from the need of alternative party provider in the Northwest.<br> Surrounded by the ocean and beautiful mountains, Sligo is number 1 place to celebrate your special occasion. ArtSea provides fun, creative and different birthday, stag and hen parties as well as corporate or miscellaneous group events. The purpose of this website is to provide information for potential party organisers about the range of services on offer and how to get in touch to enquire or book the event.<br>
 
-#### Inspired by the colours of ArtSea branding, their unique craft and destory room and considering that 90% of their customer base are women, I chose popular green and pink colours for the main colour theme. The user should straight away be able to recognise the fact that this website is about a business that deals with art through various icons and images resembling art & craft.<br>
+#### Inspired by the colours of ArtSea branding, their unique craft and destroy room and considering that 90% of their customer base are women, I chose popular green and pink colours for the main colour theme. The user should straight away be able to recognise the fact that this website is about a business that deals with art through various icons and images resembling art & craft.<br>
 
 #### The website consists of three pages, giving the first time user an opportunity to get to know ArtSea, learn about sample activities and full range of services on offer. There is also a contact page that allows the user to promptly contact ArtSea for their services.
 
@@ -11,7 +11,7 @@
 
 # List of Features
 
-The ArtSea website is designed allowing three pages: index.html representing Home Page, services.html page representing the Services breakdown offered by ArtSea and contact.html allowing for submission Contcat Us form page. Below you will find a list of features for each page.
+The ArtSea website is designed allowing three pages: index.html representing Home Page, services.html page representing the Services breakdown offered by ArtSea and contact.html allowing for submission Contact Us form page. Below you will find a list of features for each page.
 
 ***The Home page consists of:***
 
@@ -35,7 +35,7 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
 
 **Hero Image and Main Page Information**
 
-<li>Hero Image - relevant to the business and theme of the website image with text overlay box and repsonsive button</li>
+<li>Hero Image - relevant to the business and theme of the website image with text overlay box and responsive button</li>
 <li>Introduction - short paragraph inviting users to check out the content of Services Page</li>
 
 ![Hero Image](assets/readme-images/her-image-intro.png)
@@ -52,7 +52,7 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
         <li>Business logo (name) and address
         <li>Contact Details: redirection to the Contact Us page, Telephone Number and E-mail Address</li>
         <li>Social Media Icons linking to ArtSea social media pages</li>
-        <li>Site Map - liks to each page for ease of use</li>
+        <li>Site Map - links to each page for ease of use</li>
 </ul>
 
 ![Footer 1](assets/readme-images/footer-1.png)
@@ -73,7 +73,7 @@ Navigation menu is responsive and on smaller screens it changes to vertical for 
         <ul>
             <li>text area</li>
             <li>gallery</li>
-            <li>embeded videos</li>
+            <li>embedded videos</li>
         </ul>
 Click to view below:
 
@@ -122,7 +122,7 @@ Footer contains interactive fields such as telephone number and email. User may 
 
 ## Site Goals
 
-ArtSea site goal is to encourage the user to choose ArtSea for their party. In order to achieve this goal, user must find the navigation through the website quick an easy. According to The Web Content Accessibility Guidelines (WCAG) [WCAG](https://blog.hubspot.com/blog/tabid/6307/bid/30557/6-guidelines-for-exceptional-website-design-and-usability.aspx) websites must be 
+ArtSea site goal is to encourage the user to choose ArtSea for their party. In order to achieve this goal, user must find the navigation through the website quick and easy. According to The Web Content Accessibility Guidelines (WCAG) [WCAG](https://blog.hubspot.com/blog/tabid/6307/bid/30557/6-guidelines-for-exceptional-website-design-and-usability.aspx) websites must be 
 
 Perceivable: Visitors are aware of the content on your site.<br>
 Operable: The functionality of your website should be possible in different ways.<br>
@@ -157,7 +157,7 @@ There are several call to action buttons on the Main Page such as 'Let's craft!'
 
 ## Design choices
 
-The design of the website focusses on the art and craft part of the business choosing lively colours and images that are in line with branding and general business theme. First time user knows straight away that the website is about party packages that involve creativity and art.
+The design of the website focusses on the art and craft part of the business choosing lively colours and images that are in line with branding and general business theme. First-time user knows straight away that the website is about party packages that involve creativity and art.
 
 <ol>Theme colors:</ol>
 <li>Header and Footer - #41B3A3</li>
@@ -168,17 +168,17 @@ The design of the website focusses on the art and craft part of the business cho
 
 <span width="100" height="100">![ArtSea_Color_Palette](/assets/images/ArtSea_color_palette_smaller.png)<span>
 
-The general rule for the website was to keep the navigation menu and footer the same across all pages. The main page footer differs from Services page or Contact Us page, as the objective was to enhance users' experience by making it easier for them to navigate to other pages of the website from the main page. Therfore, the decision was made to include site map with links to other pages on the main page and replace it with Google map on the other two pages. By doing so, user can quickly navigate to other pages and find the location of the business on their navigation journey. This also allows to keep the flow throughout all pages.<br>
+The general rule for the website was to keep the navigation menu and footer the same across all pages. The main page footer differs from Services page or Contact Us page, as the objective was to enhance users' experience by making it easier for them to navigate to other pages of the website from the main page. Therefore, the decision was made to include site map with links to other pages on the main page and replace it with Google map on the other two pages. By doing so, user can quickly navigate to other pages and find the location of the business on their navigation journey. This also allows to keep the flow throughout all pages.<br>
 
 In the footer, for ease of access, links were added to external telephone calling and emailing clients, making it easy for user to contact ArtSea.<br>
 
-The hero image thatwas chosen for the main page makes the user feel that they landed on the right page if they are looking for art and craft party supplier. It gives the page the urban, freestyle feel and makes the user interested in what ArtSea has on offer. The text overlay brings attention to statements that make the user curious to find out more about this unique experience at ArtSea. It also specifies location so that users that are from far abroad do not waste their time if they landed on the page and are unable to travel thus far.<br>
+The hero image that was chosen for the main page makes the user feel that they landed on the right page if they are looking for art and craft party supplier. It gives the page the urban, freestyle feel and makes the user interested in what ArtSea has on offer. The text overlay brings attention to statements that make the user curious to find out more about this unique experience at ArtSea. It also specifies location so that users that are from far abroad do not waste their time if they landed on the page and are unable to travel thus far.<br>
 
-The interactive and responsive round buttons on the main page create a clean structured format and bring attention to the services on offer. After clicking, tey bring the user to the required section on the website, without opening in the new tab, allowing for the user to stay on the page as long as possible.<br>
+The interactive and responsive round buttons on the main page create a clean structured format and bring attention to the services on offer. After clicking, they bring the user to the required section on the website, without opening in the new tab, allowing for the user to stay on the page as long as possible.<br>
 
 There was a request to showcase some of the activities offered at ArtSea and this was achieved by creating small galleries with shadow frames keeping the style and colours within the colour palette of the website. Small captions at the bottom of the page explain the activities allowing users to understand what they are.<br>
 
-The Contact Us page inludes a form, which has required fields specified. Among First and Last Name, there is a phone number, and email address. When it comes to the telephone number, there was a conscious decision made to use input type="text" instead of input type="tel". If tel input type was specified this filed would have been validated and number of different country codes therfore for users' ease of access the field was changed to text with recommended phone number format placeholder.<br>
+The Contact Us page includes a form, which has required fields specified. Among First and Last Name, there is a phone number, and email address. When it comes to the telephone number, there was a conscious decision made to use input type="text" instead of input type="tel". If tel input type was specified this filed would have been validated and number of different country codes therefore for users' ease of access the field was changed to text with recommended phone number format placeholder.<br>
 
 ## User Stories
 
@@ -186,7 +186,7 @@ The Contact Us page inludes a form, which has required fields specified. Among F
 
 **Persona 2** - Birthday party organiser for partner, friend, parent, children where the birthday is round such as  18th, 21st,30th, 40th, 50th, 60th, 70th, etc. They are looking for party with a twist where the group will spend quality time together, making a piece of art and craft and have fun by possibly destroying it in the Craft and Destroy Room. Suitable for non-drinkers, creative people or those that prefer non-physical activities. Quality time with their party is more important than going out. They are looking for package with meal - allow partner discounts for local restaurant.<br>
 
-**Persona 3** - Stag and Hen party oraniser, typically brother, sister of best friend. They are looking for a fun, different stag or hen party with the emphasis on the party rather than craft. They would like to incorporate typical symbolic part of the stag and hen party in their package.<br>
+**Persona 3** - Stag and Hen party organiser, typically brother, sister of best friend. They are looking for a fun, different stag or hen party with the emphasis on the party rather than craft. They would like to incorporate typical symbolic part of the stag and hen party in their package.<br>
 
 **Persona 4** - Person that was assigned a task of organising a corporate social event with a difference. They were given budget per person and number of people to attend the event.<br>
 
@@ -194,19 +194,19 @@ The Contact Us page inludes a form, which has required fields specified. Among F
 
 >**Persona 1** - Parent that wants to organise a birthday party for his/her child, living in Sligo or thin 30 min drive. He/She is looking for party where kids' creativity will be used to have time with their friends and create something they can bring home. The parent is looking for a party where all supplies are provided and minimum effort is required. They want to be able to book the party shortly after consulting the webpage.
 
-Persona 1 type user of the website will find all the relevant information on the page specifying the age, number of children required for party andprice per person. This user will also find the timeline required to book the party. As this user most likely is juggling several things at once, providing information and ease of access to contact ArtSea to book the party is what they are looking for. 
+Persona 1 type user of the website will find all the relevant information on the page specifying the age, number of children required for party and price per person. This user will also find the timeline required to book the party. As this user most likely is juggling several things at once, providing information and ease of access to contact ArtSea to book the party is what they are looking for. 
 
->**Persona 2** - Birthday party organiser for partner, friend, parent, children where the birthday is round such as  18th, 21st,30th, 40th, 50th, 60th, 70th, etc. They are looking for party with a twist where the group will spend quality time together, making a piece of art and craft and have fun by possibly destroying it in the Craft and Destroy Room. This person wants to accomodate non-drinkers, creative people or those that prefer non-physical activities. Quality time with their party is more important than going out. They are looking for package with meal.
+>**Persona 2** - Birthday party organiser for partner, friend, parent, children where the birthday is round such as  18th, 21st,30th, 40th, 50th, 60th, 70th, etc. They are looking for party with a twist where the group will spend quality time together, making a piece of art and craft and have fun by possibly destroying it in the Craft and Destroy Room. This person wants to accommodate non-drinkers, creative people or those that prefer non-physical activities. Quality time with their party is more important than going out. They are looking for package with meal.
 
-Persona 2 type user wants to be able to book a birthday party that is customised to their needs. This users wants to be able to get in touch to discuss therfore easy access to contact form and telephone number was provided. This user is potentially looking to dine after the party so there is a link given to partner local restaurant giving them the opportunity to book all in one package. Recommended to this user is Craft and Destroy room where party member can destroy piece of craft creating memories for life.
+Persona 2 type user wants to be able to book a birthday party that is customised to their needs. This user wants to be able to get in touch to discuss therefore easy access to contact form and telephone number was provided. This user is potentially looking to dine after the party so there is a link given to partner local restaurant giving them the opportunity to book all in one package. Recommended to this user is Craft and Destroy room where party member can destroy piece of craft creating memories for life.
 
->**Persona 3** - Stag and Hen party oraniser, typically brother, sister of best friend. They are looking for a fun, different stag or hen party with the emphasis on the party rather than craft. They would like to incorporate typical symbolic part of the stag and hen party in their package.<br>
+>**Persona 3** - Stag and Hen party organiser, typically brother, sister of best friend. They are looking for a fun, different stag or hen party with the emphasis on the party rather than craft. They would like to incorporate typical symbolic part of the stag and hen party in their package.<br>
 
-Persona 3 type user is looking for an activity for their party with a twist. User can quickly navigate to the video of the Craft and Destroy Room on the same page and get in tocuh to discuss the requirements. Sample activities provided in the small gallery in this section allows the user to see what activities were chosen by previous party goers. This in turn helps the user make up their mind. 
+Persona 3 type user is looking for an activity for their party with a twist. User can quickly navigate to the video of the Craft and Destroy Room on the same page and get in touch to discuss the requirements. Sample activities provided in the small gallery in this section allows the user to see what activities were chosen by previous party goers. This in turn helps the user make up their mind. 
 
 >**Persona 4** - Person that was assigned a task of organising a corporate social event with a difference. They were given budget per person and number of people to attend the event.
 
-Persona 4 type of user is the not very common at ArtSea therfore section could be expanded in the future to attract more customers. There is a statement on the website though, that these types of events are also offered and to get in touch through Contact Us form. 
+Persona 4 type of user is the not very common at ArtSea therefore section could be expanded in the future to attract more customers. There is a statement on the website though, that these types of events are also offered and to get in touch through Contact Us form. 
 
 >
 **Persona 5** - Group of friends that want to go away for the weekend, having fun, doing something different in a good location. They want to have fun and spend time together.
@@ -215,12 +215,12 @@ Persona 5 type user is looking for a custom package. The website allows the user
 
 <hr>
 
-Summarising UI/UX section the colcusion is as follows:
+Summarising UI/UX section the conclusion is as follows:
 <ul>
 <li>First time user knows that the website is about art and craft birthday party organiser.</li>
 <li>First time user learns about services provided by ArtSea.</li>
 <li>First time user is called to action - to book a party.</li>
-<li>Firts time user finds contact details to make booking easily.</li>
+<li>First time user finds contact details to make booking easily.</li>
 </ul>
 
 ## Wireframes
@@ -233,16 +233,54 @@ Below wireframe was created as a starting point of the design.
 
 # Testing
 
-Testing the website took plase throughout the design process. It invloved checking if website works on different web browser, wheter it is responsive and if html and css files go through the validation without throwing out any errors. Any errors that were spotted throughout the design are documented in this section.<br>
+Testing the website took place throughout the design process. It involved checking if website works on different web browser, whether it is responsive and if html and css files go through the validation without throwing out any errors. Any errors that were spotted throughout the design are documented in this section.<br>
 
-As this is a static website, testing is performedon the visual aspect of the website.<br>
-Sections should not overalp, text should be clearly visible and not go out of a specified section. Images should load and if the link for some reason appears to be broken, the alternative description should be displayed. Testing was performed on at least two web browsers and for all screen sizes. Any link included onthe website should direct the user to the correct section of the website. 
+As this is a static website, testing is performed on the visual aspect of the website.<br>
+Sections should not overlap, text should be clearly visible and not go out of a specified section. Images should load and if the link for some reason appears to be broken, the alternative description should be displayed. Testing was performed on at least two web browsers and for all screen sizes. Any link included on the website should direct the user to the correct section of the website.
+
+<hr>
+
+There were html test performed on all four pages of the websites by direct input of code to the following validator [Validator](https://validator.w3.org/#validate_by_input).<br>
+
+Index.html page came up with no errors as a result of testing:
+
+![Index Page](assets/readme-images/index.html-test.png)<br>
+
+Services Page came up with no errors as a result of testing:
+
+![Services Page](assets/readme-images/services.html-test.png)<br>
+
+Contact Us Page came up with no errors as a result of testing:
+
+![Contact Us Page](assets/readme-images/contact.html-test.png)<br>
+
+Thank you Page came up with no errors as a result of testing:
+
+![Thank you Page](assets/readme-images/thank-you.html-test.png)<br>
+
+<hr>
+
+Contrast was tested by using [Coolors Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)<br>
+
+Result of that test is presented below:
+
+![Contrast test 1](assets/readme-images/contrast.png)<br>
+
+![Contrast test 2](assets/readme-images/contrast-2.png)<br>
+
+The overall page test was performed through [Contrast page](https://color.a11y.com/Contrast/) and result is presented below:
+
+![Result contrast full](assets/readme-images/contrast-full.png)
+
+<hr>
 
 The table below represents testing of the website with expected outcome and the actual test result.
 
+![Test results](assets/readme-images/test-results.png)
+
 
 ### Bug 1
-After adding content that was copied from index.html page to  services.html page, the services.html stopped working as per screenshot below:
+After adding content that was copied from index.html page to services.html page, the services.html stopped working as per screenshot below:
 
 ![Bug 1](/assets/images/bug1.png)
 
@@ -252,15 +290,33 @@ Bug was fixed by temporarily commenting out code copied from main page info sect
 
 <em>Note: I realised that website is not deployed and link is breaking each time I open the portal. This bug will need to be fixed once the website is deployed.</em>
 
-<em>Note: After brainstorming with mentor, I came to the conclustion that I shouldn't be using a full http link to the page where user should be directed to, but a relative link instead. Correcting this issue resolved the problem with link breaking.</em>
+<em>Note: After brainstorming with mentor, I came to the conclusion that I shouldn't be using a full http link to the page where user should be directed to, but a relative link instead. Correcting this issue resolved the problem with link breaking.</em>
 
 ### Bug 2 
 
-I realised that I downloaded the largest images rather than small so I needed to replace exising images in the assets/images folder to smaller.
+I realised that I downloaded the largest images rather than small so I needed to replace existing images in the assets/images folder to smaller.
+
+<em>Note: this issue was also corrected by replacing jpeg images to webp images as the older format was slowing down the mobile performance.</em>
 
 ### Bug 3 
 
-On main page when I clicked on Lets's party! button, it was opening page in a separate tab but with error 404: File not found as per image below. I fixed it by correcting href link as services.html page name changed from Capital letter to small letter. 
+On main page when I clicked on Let's party! button, it was opening page in a separate tab but with error 404: File not found as per image below. I fixed it by correcting href link as services.html page name changed from Capital letter to small letter. 
+
+### Bug 4 
+
+After deployment, favicon was not showing in the web prowser. Fix applied was to move images to separate assets/favicon folder and change paths in relevant files.
+
+### Bug 5
+
+Common errors that appeared in validation were when h1 was uesd to style a pragaraph rather than main header. Fix applied was to change h1 to h2 paragraphs and style in css accordingly. 
+
+### Bug 6 
+
+Form was missing required attribute, and user was able to submit the from without filling out the form. Fixed by adding required attribute to the input type fields accordingly.
+
+### Bug 7 
+
+When testing performance on DevTools and Lighthouse for mobile devices, performance was wroun 78 orange. The problem that was coming up slowing the performane was render blocking CSS and Java-Script. Since I did nto use JavaScript, and doing some research I cam to the conclusion that it was my css stylesheet that was taking to long to load. Since I applied a lot of styling for all 4 pages in one css file, it would be recommended to divide the css style sheet into separate files and link them accordingly to each page. This way, the load speed should be reduced and performace improved.
 
 # Deployment
 
@@ -356,3 +412,5 @@ Suggested future features:
 </ul>
 
 # Summary
+
+Designing, creating and deploying ArtSea website was a huge learning curve for me as I have never coded before. I thoroughly enjoyed the full process of creating the idea and transcribing it to a meaningful and working piece of code. I would like to thank my mentor Ronan McClelland and peer code reviewers as they helped me navigate to the final outcome. 
